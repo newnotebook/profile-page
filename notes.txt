@@ -1,0 +1,2 @@
+.html
+- homepage should always be called index.html
