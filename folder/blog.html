@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my blog</title>
+    <!-- meta tags for search thing-->
+    <meta name = 'description' content = 'a raw blog from tute'>
+    <meta name = 'keywords' content = 'web dev blog, a blog'>
+    <!-- can put css thing in head area -->
+    <!-- to grab onto id's of headers, #thing -->
+    <style type = 'text/css'>
+        #main-header{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+    <body>
+        <!-- may have more than one header/footer, so give id/class -->
+        <header id = 'main header'>
+            <h1>my website</h1>
+        </header>
+
+        <!-- link blog and index.html together-->
+        <a href="index.html">go to index</a>
+
+        <section>
+            <!-- in each article will be each blog post-->
+            <article class='post'>
+                <h3>blog post one</h3>
+                <small>posted by r on july 17</small>
+                <!-- paragraph is a block level element so it's going to go onto the next line -->
+                <p>
+                   ajfojdsojiadsofi text
+                <!-- can put link at the bottom that goes to the full post -->
+                <a href = 'post.html'>read more</a>
+                </p>
+            </article>
+            <article class='post'>
+                <h3>blog post two</h3>
+                <small>posted by r on july 17</small>
+                <p>
+                    aksdjfosidjf test
+                </p>
+                <a href = 'post.html'>read more</a>
+            </article>
+        </section>
+
+        <!-- making a sidebar-->
+        <aside>
+            <h3>categories</h3>
+            <!-- when you have navigation, use nav tag. can be used later to style in css-->
+            <nav>
+                <ul>
+                    <li><a href = "#">category 1</a></li>
+                    <li><a href = "#">category 2</a></li>
+                    <li><a href = "#">category 3</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <footer id = 'main footer'>
+            <p>copyright &copy; 2022 my website</p>
+        </footer>
+    </body>
+</html>
