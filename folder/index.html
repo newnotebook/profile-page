@@ -19,13 +19,91 @@ f12 for developer tool. elements tab shows html
 
         <!--paragraph-->
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis quasi impedit et veniam nemo enim porro magnam, at corrupti quam aspernatur, atque beatae id praesentium eveniet doloribus fugiat similique?
+            Lorem ipsum dolor <strong>sit amet consectetur adipisicing elit.</strong> Quo reiciendis <em>quasi impedit et veniam nemo </em>enim porro magnam, at corrupti quam aspernatur, atque beatae id praesentium eveniet doloribus fugiat similique?
         </p>
         <p>
+            <!--<a href=""> opens on the site-->
+            <!--<a href="" target = "_blank"> opens in new tab-->
+                
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reiciendis quasi impedit et veniam nemo enim porro magnam, at corrupti quam aspernatur, atque beatae id praesentium eveniet doloribus fugiat similique?
         </p>
+        <!-- list - unordered/ordered-->
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+        </ul>
+        <ol>
+            <li>list item 1</li>
+            <li>list item 2</li>
+        </ol>
+        <!-- table -->
+        <!-- do not use tables for layouts, use css -->
+        <table>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>email</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>wioejfowj</td>
+                    <td>email</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <td>wogjw</td>
+                    <td>emaila</td>
+                    <td>892</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+        <!--forms -->
+        <form action = "" method = "POST"> <!--will submit form to a certain page -->
+            <div>
+            <label>first name</label>
+            <input type = "text" name = "firstName">
+            </div>
+            <br>
+            <div>
+            <label>last name</label>
+            <input type = "text" name = "lastName">
+            </div>
+            <br>
+            <div>
+            <label>email</label>
+            <input type = "email" name = "email">
+            </div>
+            <br>
+            <div>
+            <label>message</label>
+            <textarea name = "message"></textarea>
+            </div>
+            <div>
+                <label>gender</label>
+                <select name = "gender">
+                    <!--can have placeholder text -->
+                    <!--input type = "text" name = "firstname" placeholder = "enter first name"-->
+                <option value = "male">male</option>
+                <option value = "female">female</option>
+                <option value = "other">other</option>
+                </select>
+            </div>
+            <!-- can have value: number, date - input type="date" name="birthday"-->
+            <br>
+            <input type = "submit" name = "submit" value = "Submit">
+        </form>
+        <!-- for button to do something, need to use js. button click = "somefunction"-->
+        <button>click me</button>
+        <!-- cannot add functionality in html -->
     </head>
     <body>
         <!-- Headings -->
     </body>
+
 </html>
