@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "SSH FS - cse",
+			"uri": "ssh://cse/import/ravel/4/z5389100"
+		},
+		{
+			"name": "vscode",
+			"path": "..\\..\\..\\Downloads\\vscode"
+		}
+	]
+}
