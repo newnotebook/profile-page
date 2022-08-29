@@ -178,4 +178,50 @@ a:active{
     box-sizing:border-box;
 }
 
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    /* will prevent :absolute from overriding the whole document
+    keep elements inside box */
+    position:relative;
+    background-image:url('../images/bg.jpg');
+    /* will move around image */
+    background-position:100px 200px;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
 
+/* absolute will override the whole document */
+.p-box h1{
+    position:absolute;
+    top:40px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+.mylist li:first-child {
+    background: red;
+}
+
+.mylist li:last-child {
+    background: blue;
+}
+
+.mylist li:nth-child(5) {
+    background: yellow;
+}
+
+.mylist li:nth-child(even) {
+    background: grey;
+}
